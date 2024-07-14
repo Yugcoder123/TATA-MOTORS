@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+     font-family:"Poppins", sans-serif;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#img{
+    width: 100%;
+    height: 300px;
+}
+a{
+    color: bisque; 
+    text-decoration: none   ;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: blue;
+    height: 50px;
+    margin-top: 5px;
+}
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+.but{
+    transform: translate(0%,40%);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.primary_button{
+        border:2px solid black;
+        border-radius: 4px; 
+        background-color: rgb(0,93,255);
+        color: bisque;
+        transform: translate(0%,20px);
+        justify-content: center;
+}
+.second_button{
+    border:2px solid black;
+    border-radius: 4px; 
+    background-color: rgb(0,93,255);
+    color: bisque;
+    transform: translate(0%,20px);
+    justify-content: center;
+    margin-top: 10px;
+}
+.car{
+    margin: 2%;
+    overflow: hidden;
+}
+.image{
+    width: 47%;
+}
+.cari{
+width: 520px;
+}
+.text{
+    gap: 10px;
+    width: 47%;
+}
+.uni{
+    display: flex;
+    flex-direction: row-reverse;    
+}
+.footer{
+    background-color: blue;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.cut{
+    transform: translateY(1px);
+}
+.follow{ 
+    color: bisque; 
+}

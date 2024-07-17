@@ -47,5 +47,5 @@ p input{
   background-attachment: fixed;
   background-position: center;
     background-image:url(images/cars.jpg);
-   
+   background-size: 100%;
 }

@@ -73,6 +73,30 @@ width: 520px;
 .cut{
     transform: translateY(1px);
 }
+.center{
+    width: 100vw;
+    overflow: hidden ;
+}
+.center_image{
+  width: 100vw;
+  margin: 10px;
+  
+}
+@media  and (max-width:1130) {
+   
+    .type{
+        width:  100%;
+
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 7px;
+    }
+    
+}
+
 @media screen and (max-width:991px ) {
     .cari{
         width: 100%;

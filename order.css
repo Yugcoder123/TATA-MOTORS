@@ -42,3 +42,10 @@ p input{
     padding: 2%;
     width: 100%;
 }
+.back{
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    background-image:url(images/cars.jpg);
+   
+}

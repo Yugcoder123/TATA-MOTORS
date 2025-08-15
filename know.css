@@ -5,14 +5,19 @@
      font-family:"Poppins", sans-serif;
    
 }
+body
+{
+    overflow-x: hidden;
+}
 nav{
-    background-color: blue;
     height: 50px;
     margin-top: 5px;
 }
-
+.try{
+    justify-content: space-evenly;
+}
 a{
-    color: bisque;
+    color: blue;
     text-decoration: none;
 }
 .navbar{
@@ -20,16 +25,17 @@ a{
     align-items: center;
 }
 .but{
+    padding: 5px;
     transform: translate(0%,40%);
-    border: 2px solid white;
+    border: 2px solid rgb(4, 50, 255);
     border-radius: 4px;
-    color: bisque;
 }
 h1{
     text-align: center;
 }
-#img {
+img {
     width: 100%;
+    justify-self:center;
   }
 p{
     text-align: center;
@@ -39,6 +45,7 @@ p{
 }
 .car{
     margin: 2%;
+    overflow: hidden;
 }
 .image{
     width: 47%;
@@ -82,11 +89,13 @@ width: 520px;
   margin: 10px;
   
 }
+.car{
+    justify-content: space-between;
+}
 @media  and (max-width:1130) {
    
     .type{
         width:  100%;
-
     }
     h1{
         font-size: 15px;
@@ -128,7 +137,9 @@ width: 520px;
     }
     .but{
         font-size: 10px;
-        transform: translateY(13px);
     }
-    
-}
+        .but{
+            font-size: 10px;
+            transform: translateY(13px);
+        }
+    }
